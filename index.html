@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,17 +19,21 @@
     <header>
     <h1> My Task<br> Manager</h1>
         <div class="profileImage">
-            <img src="images/social media icon.png" alt="profile image"></div>
+            <img src="images/social media icon.png"></div>
     </header> 
-    <div class="welcome">
-        <p> Welcome Joy!</p>
+    <div class="topBar">
+        <i class="fas fa-home icon"></i> 
+        <i class="fa fa-cog icon" aria-hidden="true"></i>
+        <i class="fas fa-bell icon"></i>
+        <span >Welcome Joy!</span>
     </div>
+    
     
    
     <div class="navigation">
-        <a href="index.html">Today</a>
-        <a href="tasks.html">Pending</a>
-        <a href="delete.html">Completed Task</a>
+        <a href="index.html">Today <i class="fa fa-calculator navIcon" aria-hidden="true"></i></a>
+        <a href="tasks.html">Pending<i class="fa fa-spinner navIcon" aria-hidden="true"></i></a>
+        <a href="delete.html">Completed Task <i class="fa fa-check-square navIcon" aria-hidden="true"></i></a>
     </div>
     <div class="content">
         <h2>Welcome!  to Task Manager</h2>
@@ -37,7 +42,7 @@
     </div>
 
     <div class="addtask">
-        <button>Add Tasks</button>
+        <button>Add Tasks <i class="fa fa-plus" aria-hidden="true"></i></button>
     </div>
 </div>
   

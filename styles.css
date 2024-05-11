@@ -6,10 +6,12 @@ body{
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-style: normal;
+  font-size: 17px;
  
 }
 .wrapper{
   background-color: #BBDEFB;
+  padding: 1em;
 }
 header{
   display: flex;
@@ -28,12 +30,23 @@ img{
   padding-top: 0.5em;
  
 }
-.welcome{
-font-size: 25px;
-padding-left: 0.5em;
-height: 10vh;
-
+.topbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
 }
+.icon {
+  margin-right: 15px;
+  padding-bottom: 1em;
+  cursor: pointer;
+}
+.navIcon{
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  margin-left: 0;
+}
+
 
 .navigation {
   background-color:#E1BEE7;
@@ -72,4 +85,6 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
+  font-size: 17px;
 }
