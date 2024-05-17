@@ -9,6 +9,9 @@ body{
   font-size: 17px;
  
 }
+#taskForm{
+  display: none;
+}
 .wrapper{
   background-color: #BBDEFB;
   padding: 1em;
@@ -21,7 +24,7 @@ header{
 h1{
   font-family: "Josefin Slab", serif;
   color:#AB47BC;
-  font-weight: 700;
+  font-weight: 900;
   
 }
 img{
@@ -87,4 +90,5 @@ button {
   cursor: pointer;
   border-radius: 5px;
   font-size: 17px;
+  font-weight: 700;
 }
